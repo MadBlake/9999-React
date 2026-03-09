@@ -1,0 +1,39 @@
+.event-list-section {
+  padding: 2rem 0;
+}
+
+.event-list-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}
+
+.event-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.event-list-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.empty-icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.event-list-empty h3 {
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.event-list-empty p {
+  color: #666;
+}

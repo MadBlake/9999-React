@@ -1,0 +1,145 @@
+.render-demo {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.render-demo h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.demo-intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.demo-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.demo-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.demo-section h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.demo-explanation {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.demo-explanation code {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+}
+
+.demo-content {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.demo-button {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.demo-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.demo-button:active {
+  transform: translateY(0);
+}
+
+.demo-input {
+  padding: 10px 14px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.demo-input:focus {
+  border-color: #667eea;
+}
+
+.children-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.child-box {
+  flex: 1;
+  min-width: 150px;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.child-a {
+  background: #e3f2fd;
+  color: #1565c0;
+  border: 2px solid #1565c0;
+}
+
+.child-b {
+  background: #f3e5f5;
+  color: #7b1fa2;
+  border: 2px solid #7b1fa2;
+}
+
+.normal {
+  background: #ffebee;
+  color: #c62828;
+  border: 2px solid #c62828;
+}
+
+.memoized {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 2px solid #2e7d32;
+}
+
+.state-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.state-display {
+  margin-top: 12px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 6px;
+  font-family: 'Fira Code', monospace;
+  font-size: 13px;
+  color: #333;
+}
