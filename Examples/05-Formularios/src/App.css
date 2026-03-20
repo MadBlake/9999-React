@@ -1,0 +1,10 @@
+/* Estilos específicos para App.tsx */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f7fa;
+}
+
+/* La mayoría de estilos están en index.css */
