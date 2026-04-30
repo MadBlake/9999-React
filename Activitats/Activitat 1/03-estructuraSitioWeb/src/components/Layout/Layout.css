@@ -1,0 +1,28 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: 2px solid #ff6b6b;
+  position: relative;
+}
+
+.layout::before {
+  content: 'Layout Component';
+  position: absolute;
+  top: -25px;
+  left: 10px;
+  background: #ff6b6b;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  margin: 0 20px;
+}

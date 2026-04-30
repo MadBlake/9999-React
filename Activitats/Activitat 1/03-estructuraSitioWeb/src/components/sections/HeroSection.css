@@ -1,0 +1,44 @@
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 8px;
+  border: 2px solid #5a67d8;
+  position: relative;
+}
+
+.hero-section::before {
+  content: 'HeroSection Component';
+  position: absolute;
+  top: -25px;
+  left: 10px;
+  background: #5a67d8;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+}

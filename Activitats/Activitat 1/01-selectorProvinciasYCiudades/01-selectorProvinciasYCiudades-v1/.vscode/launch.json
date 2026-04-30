@@ -1,0 +1,12 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+     {
+       "type": "chrome",
+       "request": "launch",
+       "name": "Depurar amb Chrome",
+       "url": "http://localhost:5137",
+       "webRoot": "${workspaceFolder}/Activitat 1/01-selectorProvinciasYCiudades/01-selectorProvinciasYCiudades-v1",
+     }
+   ]
+ }

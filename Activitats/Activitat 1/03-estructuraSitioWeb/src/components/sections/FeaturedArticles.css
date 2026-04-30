@@ -1,0 +1,40 @@
+.featured-articles {
+  background-color: white;
+  padding: 40px;
+  margin: 20px;
+  border: 2px solid #38a169;
+  border-radius: 8px;
+  position: relative;
+}
+
+.featured-articles::before {
+  content: 'FeaturedArticles Component';
+  position: absolute;
+  top: -25px;
+  left: 10px;
+  background: #38a169;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+}
